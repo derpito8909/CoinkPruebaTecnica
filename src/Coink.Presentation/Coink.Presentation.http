@@ -1,0 +1,6 @@
+@Coink.Presentation_HostAddress = http://localhost:5197
+
+GET {{Coink.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

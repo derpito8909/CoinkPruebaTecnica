@@ -1,0 +1,12 @@
+/home/david/Documents/CoinkAPI/src/Coink.Domain/bin/Debug/net8.0/Coink.Domain.deps.json
+/home/david/Documents/CoinkAPI/src/Coink.Domain/bin/Debug/net8.0/Coink.Domain.dll
+/home/david/Documents/CoinkAPI/src/Coink.Domain/bin/Debug/net8.0/Coink.Domain.pdb
+/home/david/Documents/CoinkAPI/src/Coink.Domain/obj/Debug/net8.0/Coink.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/david/Documents/CoinkAPI/src/Coink.Domain/obj/Debug/net8.0/Coink.Domain.AssemblyInfoInputs.cache
+/home/david/Documents/CoinkAPI/src/Coink.Domain/obj/Debug/net8.0/Coink.Domain.AssemblyInfo.cs
+/home/david/Documents/CoinkAPI/src/Coink.Domain/obj/Debug/net8.0/Coink.Domain.csproj.CoreCompileInputs.cache
+/home/david/Documents/CoinkAPI/src/Coink.Domain/obj/Debug/net8.0/Coink.Domain.sourcelink.json
+/home/david/Documents/CoinkAPI/src/Coink.Domain/obj/Debug/net8.0/Coink.Domain.dll
+/home/david/Documents/CoinkAPI/src/Coink.Domain/obj/Debug/net8.0/refint/Coink.Domain.dll
+/home/david/Documents/CoinkAPI/src/Coink.Domain/obj/Debug/net8.0/Coink.Domain.pdb
+/home/david/Documents/CoinkAPI/src/Coink.Domain/obj/Debug/net8.0/ref/Coink.Domain.dll
