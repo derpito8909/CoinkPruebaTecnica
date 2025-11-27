@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Coink.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8124805709b632753d4cb6ac76ba51d6d9f559e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+311e68838510d7ea263c36ed5eb31db008285337")]
 [assembly: System.Reflection.AssemblyProductAttribute("Coink.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Coink.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
