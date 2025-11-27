@@ -20,7 +20,7 @@ public class UserWriteRepository : IUserWriteRepository
         CancellationToken cancellationToken = default)
     {
         const string sql = @"
-            SELECT user_registry.sp_create_user(
+            SELECT coink_app.sp_create_user(
                 @FullName,
                 @Phone,
                 @Address,

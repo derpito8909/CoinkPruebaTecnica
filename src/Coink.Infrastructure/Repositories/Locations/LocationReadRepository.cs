@@ -18,7 +18,7 @@ public class LocationReadRepository : ILocationReadRepository
     public async Task<IReadOnlyList<Country>> GetCountriesAsync(
         CancellationToken cancellationToken = default)
     {
-        const string sql = @"SELECT * FROM user_registry.sp_get_countries();";
+        const string sql = @"SELECT * FROM coink_app.sp_get_countries();";
 
         using var connection = _connectionFactory.CreateConnection();
 
@@ -32,7 +32,7 @@ public class LocationReadRepository : ILocationReadRepository
     {
         const string sql = @"
             SELECT *
-            FROM user_registry.sp_get_departments_by_country(@CountryId);";
+            FROM coink_app.sp_get_departments_by_country(@CountryId);";
 
         using var connection = _connectionFactory.CreateConnection();
 
@@ -50,7 +50,7 @@ public class LocationReadRepository : ILocationReadRepository
     {
         const string sql = @"
             SELECT *
-            FROM user_registry.sp_get_municipalities_by_department(@DepartmentId);";
+            FROM coink_app.sp_get_municipalities_by_department(@DepartmentId);";
 
         using var connection = _connectionFactory.CreateConnection();
 

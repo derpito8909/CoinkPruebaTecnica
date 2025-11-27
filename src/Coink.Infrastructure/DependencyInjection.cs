@@ -4,6 +4,7 @@ using Coink.Application.Repositories;
 using Coink.Infrastructure.ContextDb;
 using Coink.Infrastructure.Repositories.Locations;
 using Coink.Infrastructure.Repositories.Users;
+using Coink.Infrastructure.Seed;
 
 namespace Coink.Infrastructure;
 
@@ -17,6 +18,8 @@ public static class DependencyInjection
         services.AddScoped<IUserReadRepository, UserReadRepository>();
 
         services.AddScoped<ILocationReadRepository, LocationReadRepository>();
+
+        services.AddScoped<IDataSeeder, DataSeeder>();
 
         return services;
     }

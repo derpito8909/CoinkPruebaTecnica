@@ -1,5 +1,6 @@
 using AutoMapper;
 using Coink.Application.Locations.Dtos;
+using Coink.Application.commands.CreateUser;
 using Coink.Application.Users.Dtos;
 using Coink.Domain.Entities;
 
@@ -16,5 +17,7 @@ public class MappingProfile : Profile
         CreateMap<Department, DepartmentDto>();
 
         CreateMap<Municipality, MunicipalityDto>();
+
+        CreateMap<CreateUserRequestDto, CreateUserCommand>();
     }
 }

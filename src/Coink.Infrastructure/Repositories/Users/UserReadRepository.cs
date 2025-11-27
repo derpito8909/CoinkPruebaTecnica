@@ -21,7 +21,7 @@ public class UserReadRepository : IUserReadRepository
     {
         const string sql = @"
             SELECT *
-            FROM user_registry.sp_get_user_by_id(@UserId);";
+            FROM coink_app.sp_get_user_by_id(@UserId);";
 
         using var connection = _connectionFactory.CreateConnection();
 
